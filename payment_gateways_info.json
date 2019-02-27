@@ -1,0 +1,56 @@
+{  
+    "Cash Payment":{  
+       "payment_method":"Cash Payment",
+       "model":"pg_cash_payment_transactions",
+       "success":1,
+       "transaction_id":"transaction_number"
+    },
+    "Demand draft":{  
+       "payment_method":"Demand draft",
+       "model":"pg_sydd_transactions",
+       "success":1,
+       "transaction_id":"dd_number"
+    },
+    "Stripe Payment":{  
+       "payment_method":"Stripe Payment",
+       "model":"stripe_subscriptions",
+       "success":1,
+       "transaction_id":"card"
+    },
+    "Razorpay Payment":{  
+       "payment_method":"Razorpay Payment",
+       "model":"pg_sy_razorpay_payments",
+       "success":1,
+       "transaction_id":"razorpay_payment_id"
+    },
+    "Braintree Payment":{  
+       "payment_method":"Braintree Payment",
+       "model":"pg_sy_braintree_payments",
+       "success":1,
+       "transaction_id":"braintree_payment_id"
+    },
+    "Paypal Payment":{  
+       "payment_method":"Paypal Payment",
+       "model":"pg_sy_paypal_payments",
+       "success":1,
+       "transaction_id":"transaction_id"
+    },
+    "Ccavenue Payment":{  
+       "payment_method":"Ccavenue Payment",
+       "model":"order_payment_informations",
+       "success":1,
+       "transaction_id":"ccavenue_tracking_id"
+    },
+    "Hdfc Payment":{  
+       "payment_method":"Hdfc Payment",
+       "model":"pg_sy_hdfc_payments",
+       "success":1,
+       "transaction_id":"hdfc_tracking_id"
+    },
+    "Payfast Payment":{  
+       "payment_method":"Payfast Payment",
+       "model":"pg_sy_payfast_payments",
+       "success":3,
+       "transaction_id":"pf_payment_id"
+    }
+ }
